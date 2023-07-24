@@ -4,9 +4,12 @@ function hasKey(key) {
   //   write your code here
 for(let a in sampleObject){
               if(sampleObject[a]==key){
-                return true;
+                
+				  console.log(true);
+				  return true;
               }
               else{
+				  console.log(false);
                 return false;
               }
             }
